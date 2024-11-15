@@ -252,7 +252,7 @@ nav.show div.icon-close {
       rgba(102, 35, 34, 1),
       rgba(102, 35, 34, 0) 100%
     ),
-    url("/assets/img/predio.jpg"); /* Insira o caminho da imagem */
+    url("./assets/img/predio.jpg"); /* Insira o caminho da imagem */
   background-size: cover;
   background-position: center;
 }
