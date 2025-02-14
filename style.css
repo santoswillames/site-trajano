@@ -265,6 +265,12 @@ nav.show div.icon-close {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   text-align: center;
+  visibility: visible;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  position: relative;
+  left: 0px;
+  top: 70px;
 }
 
 #home .text h1 {
@@ -309,6 +315,11 @@ nav.show div.icon-close {
 #about .text {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+}
+
+#about .text h3 {
+  margin-bottom: 1rem;
+  color: var(--base-color-second);
 }
 
 /* ====== SERVICES ========= */
@@ -559,6 +570,10 @@ footer .social a:hover {
   #about .container {
     grid-auto-flow: column;
     margin: 0 auto;
+  }
+
+  #about .text h3 {
+    margin-bottom: 0.8rem;
   }
 
   .cards {
