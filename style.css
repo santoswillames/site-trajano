@@ -441,6 +441,24 @@ nav.show div.icon-close {
   color: var(--base-color);
 }
 
+#contact ul li p {
+  margin-left: 1rem;
+}
+
+#contact ul li a {
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+#contact ul li a:hover {
+  transform: translateY(-5px);
+}
+
+#contact ul li a:visited {
+  color: inherit;
+}
+
 /* ====== FOOTER ========= */
 footer {
   background: var(--base-color);
